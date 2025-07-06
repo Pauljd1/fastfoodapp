@@ -3,6 +3,7 @@ import useAuthStore from "@/store/auth.store";
 import {View, Image, Text} from "react-native";
 import {images} from "@/constants";
 import cn from "clsx";
+import {TabBarIconProps} from "@/type";
 
 const TabBarIcon = ({focused, icon, title }: TabBarIconProps) => (
     <View className="tab-icon">
